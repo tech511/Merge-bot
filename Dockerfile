@@ -1,6 +1,4 @@
-FROM python:3.10-slim
-
-RUN apt update && apt install -y ffmpeg
+FROM python:3.12-slim
 
 WORKDIR /app
 
